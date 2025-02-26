@@ -1,6 +1,6 @@
 # Klotski Puzzle Game
 
-[PLAY](https://yswnqc.github.io/klotski_puzzle_Game_React/)
+[PLAY](https://yswnqc.github.io/klotsk_puzzle_Game_React/)
 
 ### Need improve
 
