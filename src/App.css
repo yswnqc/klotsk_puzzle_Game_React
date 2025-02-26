@@ -1,0 +1,60 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 3px solid #333;
+}
+
+.cell {
+  height: 150px;
+  width: 150px;
+  border: 1px solid #fff;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  display: flex;
+  gap: 30px;
+}
+
+button {
+  width: 200px;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .cell {
+    height: 100px;
+    width: 100px;
+  }
+
+  button {
+    width: 150px;
+  }
+}
